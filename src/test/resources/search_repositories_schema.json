@@ -1,0 +1,1245 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "total_count",
+    "incomplete_results",
+    "items"
+  ],
+  "properties": {
+    "total_count": {
+      "type": "integer",
+      "default": 0,
+      "title": "The total_count Schema",
+      "examples": [
+        21
+      ]
+    },
+    "incomplete_results": {
+      "type": "boolean",
+      "default": false,
+      "title": "The incomplete_results Schema",
+      "examples": [
+        false
+      ]
+    },
+    "items": {
+      "type": "array",
+      "default": [],
+      "title": "The items Schema",
+      "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": [
+          "id",
+          "node_id",
+          "name",
+          "full_name",
+          "private",
+          "owner",
+          "html_url",
+          "description",
+          "fork",
+          "url",
+          "forks_url",
+          "keys_url",
+          "collaborators_url",
+          "teams_url",
+          "hooks_url",
+          "issue_events_url",
+          "events_url",
+          "assignees_url",
+          "branches_url",
+          "tags_url",
+          "blobs_url",
+          "git_tags_url",
+          "git_refs_url",
+          "trees_url",
+          "statuses_url",
+          "languages_url",
+          "stargazers_url",
+          "contributors_url",
+          "subscribers_url",
+          "subscription_url",
+          "commits_url",
+          "git_commits_url",
+          "comments_url",
+          "issue_comment_url",
+          "contents_url",
+          "compare_url",
+          "merges_url",
+          "archive_url",
+          "downloads_url",
+          "issues_url",
+          "pulls_url",
+          "milestones_url",
+          "notifications_url",
+          "labels_url",
+          "releases_url",
+          "deployments_url",
+          "created_at",
+          "updated_at",
+          "pushed_at",
+          "git_url",
+          "ssh_url",
+          "clone_url",
+          "svn_url",
+          "homepage",
+          "size",
+          "stargazers_count",
+          "watchers_count",
+          "language",
+          "has_issues",
+          "has_projects",
+          "has_downloads",
+          "has_wiki",
+          "has_pages",
+          "forks_count",
+          "mirror_url",
+          "archived",
+          "disabled",
+          "open_issues_count",
+          "license",
+          "allow_forking",
+          "is_template",
+          "web_commit_signoff_required",
+          "topics",
+          "visibility",
+          "forks",
+          "open_issues",
+          "watchers",
+          "default_branch",
+          "score"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+              104361782
+            ]
+          },
+          "node_id": {
+            "type": "string",
+            "default": "",
+            "title": "The node_id Schema",
+            "examples": [
+              "MDEwOlJlcG9zaXRvcnkxMDQzNjE3ODI="
+            ]
+          },
+          "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+              "practicalmachinelearning"
+            ]
+          },
+          "full_name": {
+            "type": "string",
+            "default": "",
+            "title": "The full_name Schema",
+            "examples": [
+              "khsyo/practicalmachinelearning"
+            ]
+          },
+          "private": {
+            "type": "boolean",
+            "default": false,
+            "title": "The private Schema",
+            "examples": [
+              false
+            ]
+          },
+          "owner": {
+            "type": "object",
+            "default": {},
+            "title": "The owner Schema",
+            "required": [
+              "login",
+              "id",
+              "node_id",
+              "avatar_url",
+              "gravatar_id",
+              "url",
+              "html_url",
+              "followers_url",
+              "following_url",
+              "gists_url",
+              "starred_url",
+              "subscriptions_url",
+              "organizations_url",
+              "repos_url",
+              "events_url",
+              "received_events_url",
+              "type",
+              "site_admin"
+            ],
+            "properties": {
+              "login": {
+                "type": "string",
+                "default": "",
+                "title": "The login Schema",
+                "examples": [
+                  "khsyo"
+                ]
+              },
+              "id": {
+                "type": "integer",
+                "default": 0,
+                "title": "The id Schema",
+                "examples": [
+                  13084773
+                ]
+              },
+              "node_id": {
+                "type": "string",
+                "default": "",
+                "title": "The node_id Schema",
+                "examples": [
+                  "MDQ6VXNlcjEzMDg0Nzcz"
+                ]
+              },
+              "avatar_url": {
+                "type": "string",
+                "default": "",
+                "title": "The avatar_url Schema",
+                "examples": [
+                  "https://avatars.githubusercontent.com/u/13084773?v=4"
+                ]
+              },
+              "gravatar_id": {
+                "type": "string",
+                "default": "",
+                "title": "The gravatar_id Schema",
+                "examples": [
+                  ""
+                ]
+              },
+              "url": {
+                "type": "string",
+                "default": "",
+                "title": "The url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo"
+                ]
+              },
+              "html_url": {
+                "type": "string",
+                "default": "",
+                "title": "The html_url Schema",
+                "examples": [
+                  "https://github.com/khsyo"
+                ]
+              },
+              "followers_url": {
+                "type": "string",
+                "default": "",
+                "title": "The followers_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/followers"
+                ]
+              },
+              "following_url": {
+                "type": "string",
+                "default": "",
+                "title": "The following_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/following{/other_user}"
+                ]
+              },
+              "gists_url": {
+                "type": "string",
+                "default": "",
+                "title": "The gists_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/gists{/gist_id}"
+                ]
+              },
+              "starred_url": {
+                "type": "string",
+                "default": "",
+                "title": "The starred_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/starred{/owner}{/repo}"
+                ]
+              },
+              "subscriptions_url": {
+                "type": "string",
+                "default": "",
+                "title": "The subscriptions_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/subscriptions"
+                ]
+              },
+              "organizations_url": {
+                "type": "string",
+                "default": "",
+                "title": "The organizations_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/orgs"
+                ]
+              },
+              "repos_url": {
+                "type": "string",
+                "default": "",
+                "title": "The repos_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/repos"
+                ]
+              },
+              "events_url": {
+                "type": "string",
+                "default": "",
+                "title": "The events_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/events{/privacy}"
+                ]
+              },
+              "received_events_url": {
+                "type": "string",
+                "default": "",
+                "title": "The received_events_url Schema",
+                "examples": [
+                  "https://api.github.com/users/khsyo/received_events"
+                ]
+              },
+              "type": {
+                "type": "string",
+                "default": "",
+                "title": "The type Schema",
+                "examples": [
+                  "User"
+                ]
+              },
+              "site_admin": {
+                "type": "boolean",
+                "default": false,
+                "title": "The site_admin Schema",
+                "examples": [
+                  false
+                ]
+              }
+            },
+            "examples": [{
+              "login": "khsyo",
+              "id": 13084773,
+              "node_id": "MDQ6VXNlcjEzMDg0Nzcz",
+              "avatar_url": "https://avatars.githubusercontent.com/u/13084773?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/khsyo",
+              "html_url": "https://github.com/khsyo",
+              "followers_url": "https://api.github.com/users/khsyo/followers",
+              "following_url": "https://api.github.com/users/khsyo/following{/other_user}",
+              "gists_url": "https://api.github.com/users/khsyo/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/khsyo/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/khsyo/subscriptions",
+              "organizations_url": "https://api.github.com/users/khsyo/orgs",
+              "repos_url": "https://api.github.com/users/khsyo/repos",
+              "events_url": "https://api.github.com/users/khsyo/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/khsyo/received_events",
+              "type": "User",
+              "site_admin": false
+            }]
+          },
+          "html_url": {
+            "type": "string",
+            "default": "",
+            "title": "The html_url Schema",
+            "examples": [
+              "https://github.com/khsyo/practicalmachinelearning"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "default": "",
+            "title": "The description Schema",
+            "examples": [
+              "final project for Data Science Specialisation: Practical Machine Learning"
+            ]
+          },
+          "fork": {
+            "type": "boolean",
+            "default": false,
+            "title": "The fork Schema",
+            "examples": [
+              false
+            ]
+          },
+          "url": {
+            "type": "string",
+            "default": "",
+            "title": "The url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning"
+            ]
+          },
+          "forks_url": {
+            "type": "string",
+            "default": "",
+            "title": "The forks_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/forks"
+            ]
+          },
+          "keys_url": {
+            "type": "string",
+            "default": "",
+            "title": "The keys_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/keys{/key_id}"
+            ]
+          },
+          "collaborators_url": {
+            "type": "string",
+            "default": "",
+            "title": "The collaborators_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/collaborators{/collaborator}"
+            ]
+          },
+          "teams_url": {
+            "type": "string",
+            "default": "",
+            "title": "The teams_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/teams"
+            ]
+          },
+          "hooks_url": {
+            "type": "string",
+            "default": "",
+            "title": "The hooks_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/hooks"
+            ]
+          },
+          "issue_events_url": {
+            "type": "string",
+            "default": "",
+            "title": "The issue_events_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/events{/number}"
+            ]
+          },
+          "events_url": {
+            "type": "string",
+            "default": "",
+            "title": "The events_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/events"
+            ]
+          },
+          "assignees_url": {
+            "type": "string",
+            "default": "",
+            "title": "The assignees_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/assignees{/user}"
+            ]
+          },
+          "branches_url": {
+            "type": "string",
+            "default": "",
+            "title": "The branches_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/branches{/branch}"
+            ]
+          },
+          "tags_url": {
+            "type": "string",
+            "default": "",
+            "title": "The tags_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/tags"
+            ]
+          },
+          "blobs_url": {
+            "type": "string",
+            "default": "",
+            "title": "The blobs_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/git/blobs{/sha}"
+            ]
+          },
+          "git_tags_url": {
+            "type": "string",
+            "default": "",
+            "title": "The git_tags_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/git/tags{/sha}"
+            ]
+          },
+          "git_refs_url": {
+            "type": "string",
+            "default": "",
+            "title": "The git_refs_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/git/refs{/sha}"
+            ]
+          },
+          "trees_url": {
+            "type": "string",
+            "default": "",
+            "title": "The trees_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/git/trees{/sha}"
+            ]
+          },
+          "statuses_url": {
+            "type": "string",
+            "default": "",
+            "title": "The statuses_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/statuses/{sha}"
+            ]
+          },
+          "languages_url": {
+            "type": "string",
+            "default": "",
+            "title": "The languages_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/languages"
+            ]
+          },
+          "stargazers_url": {
+            "type": "string",
+            "default": "",
+            "title": "The stargazers_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/stargazers"
+            ]
+          },
+          "contributors_url": {
+            "type": "string",
+            "default": "",
+            "title": "The contributors_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/contributors"
+            ]
+          },
+          "subscribers_url": {
+            "type": "string",
+            "default": "",
+            "title": "The subscribers_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/subscribers"
+            ]
+          },
+          "subscription_url": {
+            "type": "string",
+            "default": "",
+            "title": "The subscription_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/subscription"
+            ]
+          },
+          "commits_url": {
+            "type": "string",
+            "default": "",
+            "title": "The commits_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/commits{/sha}"
+            ]
+          },
+          "git_commits_url": {
+            "type": "string",
+            "default": "",
+            "title": "The git_commits_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/git/commits{/sha}"
+            ]
+          },
+          "comments_url": {
+            "type": "string",
+            "default": "",
+            "title": "The comments_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/comments{/number}"
+            ]
+          },
+          "issue_comment_url": {
+            "type": "string",
+            "default": "",
+            "title": "The issue_comment_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/comments{/number}"
+            ]
+          },
+          "contents_url": {
+            "type": "string",
+            "default": "",
+            "title": "The contents_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/contents/{+path}"
+            ]
+          },
+          "compare_url": {
+            "type": "string",
+            "default": "",
+            "title": "The compare_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/compare/{base}...{head}"
+            ]
+          },
+          "merges_url": {
+            "type": "string",
+            "default": "",
+            "title": "The merges_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/merges"
+            ]
+          },
+          "archive_url": {
+            "type": "string",
+            "default": "",
+            "title": "The archive_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/{archive_format}{/ref}"
+            ]
+          },
+          "downloads_url": {
+            "type": "string",
+            "default": "",
+            "title": "The downloads_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/downloads"
+            ]
+          },
+          "issues_url": {
+            "type": "string",
+            "default": "",
+            "title": "The issues_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/issues{/number}"
+            ]
+          },
+          "pulls_url": {
+            "type": "string",
+            "default": "",
+            "title": "The pulls_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/pulls{/number}"
+            ]
+          },
+          "milestones_url": {
+            "type": "string",
+            "default": "",
+            "title": "The milestones_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/milestones{/number}"
+            ]
+          },
+          "notifications_url": {
+            "type": "string",
+            "default": "",
+            "title": "The notifications_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/notifications{?since,all,participating}"
+            ]
+          },
+          "labels_url": {
+            "type": "string",
+            "default": "",
+            "title": "The labels_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/labels{/name}"
+            ]
+          },
+          "releases_url": {
+            "type": "string",
+            "default": "",
+            "title": "The releases_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/releases{/id}"
+            ]
+          },
+          "deployments_url": {
+            "type": "string",
+            "default": "",
+            "title": "The deployments_url Schema",
+            "examples": [
+              "https://api.github.com/repos/khsyo/practicalmachinelearning/deployments"
+            ]
+          },
+          "created_at": {
+            "type": "string",
+            "default": "",
+            "title": "The created_at Schema",
+            "examples": [
+              "2017-09-21T14:54:51Z"
+            ]
+          },
+          "updated_at": {
+            "type": "string",
+            "default": "",
+            "title": "The updated_at Schema",
+            "examples": [
+              "2017-09-21T15:18:59Z"
+            ]
+          },
+          "pushed_at": {
+            "type": "string",
+            "default": "",
+            "title": "The pushed_at Schema",
+            "examples": [
+              "2017-09-21T15:18:57Z"
+            ]
+          },
+          "git_url": {
+            "type": "string",
+            "default": "",
+            "title": "The git_url Schema",
+            "examples": [
+              "git://github.com/khsyo/practicalmachinelearning.git"
+            ]
+          },
+          "ssh_url": {
+            "type": "string",
+            "default": "",
+            "title": "The ssh_url Schema",
+            "examples": [
+              "git@github.com:khsyo/practicalmachinelearning.git"
+            ]
+          },
+          "clone_url": {
+            "type": "string",
+            "default": "",
+            "title": "The clone_url Schema",
+            "examples": [
+              "https://github.com/khsyo/practicalmachinelearning.git"
+            ]
+          },
+          "svn_url": {
+            "type": "string",
+            "default": "",
+            "title": "The svn_url Schema",
+            "examples": [
+              "https://github.com/khsyo/practicalmachinelearning"
+            ]
+          },
+          "homepage": {
+            "type": "null",
+            "default": null,
+            "title": "The homepage Schema",
+            "examples": [
+              null
+            ]
+          },
+          "size": {
+            "type": "integer",
+            "default": 0,
+            "title": "The size Schema",
+            "examples": [
+              225
+            ]
+          },
+          "stargazers_count": {
+            "type": "integer",
+            "default": 0,
+            "title": "The stargazers_count Schema",
+            "examples": [
+              0
+            ]
+          },
+          "watchers_count": {
+            "type": "integer",
+            "default": 0,
+            "title": "The watchers_count Schema",
+            "examples": [
+              0
+            ]
+          },
+          "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+              "HTML"
+            ]
+          },
+          "has_issues": {
+            "type": "boolean",
+            "default": false,
+            "title": "The has_issues Schema",
+            "examples": [
+              true
+            ]
+          },
+          "has_projects": {
+            "type": "boolean",
+            "default": false,
+            "title": "The has_projects Schema",
+            "examples": [
+              true
+            ]
+          },
+          "has_downloads": {
+            "type": "boolean",
+            "default": false,
+            "title": "The has_downloads Schema",
+            "examples": [
+              true
+            ]
+          },
+          "has_wiki": {
+            "type": "boolean",
+            "default": false,
+            "title": "The has_wiki Schema",
+            "examples": [
+              true
+            ]
+          },
+          "has_pages": {
+            "type": "boolean",
+            "default": false,
+            "title": "The has_pages Schema",
+            "examples": [
+              true
+            ]
+          },
+          "forks_count": {
+            "type": "integer",
+            "default": 0,
+            "title": "The forks_count Schema",
+            "examples": [
+              0
+            ]
+          },
+          "mirror_url": {
+            "type": "null",
+            "default": null,
+            "title": "The mirror_url Schema",
+            "examples": [
+              null
+            ]
+          },
+          "archived": {
+            "type": "boolean",
+            "default": false,
+            "title": "The archived Schema",
+            "examples": [
+              false
+            ]
+          },
+          "disabled": {
+            "type": "boolean",
+            "default": false,
+            "title": "The disabled Schema",
+            "examples": [
+              false
+            ]
+          },
+          "open_issues_count": {
+            "type": "integer",
+            "default": 0,
+            "title": "The open_issues_count Schema",
+            "examples": [
+              0
+            ]
+          },
+          "license": {
+            "type": "null",
+            "default": null,
+            "title": "The license Schema",
+            "examples": [
+              null
+            ]
+          },
+          "allow_forking": {
+            "type": "boolean",
+            "default": false,
+            "title": "The allow_forking Schema",
+            "examples": [
+              true
+            ]
+          },
+          "is_template": {
+            "type": "boolean",
+            "default": false,
+            "title": "The is_template Schema",
+            "examples": [
+              false
+            ]
+          },
+          "web_commit_signoff_required": {
+            "type": "boolean",
+            "default": false,
+            "title": "The web_commit_signoff_required Schema",
+            "examples": [
+              false
+            ]
+          },
+          "topics": {
+            "type": "array",
+            "default": [],
+            "title": "The topics Schema",
+            "items": {},
+            "examples": [
+              []
+            ]
+          },
+          "visibility": {
+            "type": "string",
+            "default": "",
+            "title": "The visibility Schema",
+            "examples": [
+              "public"
+            ]
+          },
+          "forks": {
+            "type": "integer",
+            "default": 0,
+            "title": "The forks Schema",
+            "examples": [
+              0
+            ]
+          },
+          "open_issues": {
+            "type": "integer",
+            "default": 0,
+            "title": "The open_issues Schema",
+            "examples": [
+              0
+            ]
+          },
+          "watchers": {
+            "type": "integer",
+            "default": 0,
+            "title": "The watchers Schema",
+            "examples": [
+              0
+            ]
+          },
+          "default_branch": {
+            "type": "string",
+            "default": "",
+            "title": "The default_branch Schema",
+            "examples": [
+              "gh-pages"
+            ]
+          },
+          "score": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The score Schema",
+            "examples": [
+              1.0
+            ]
+          }
+        },
+        "examples": [{
+          "id": 104361782,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxMDQzNjE3ODI=",
+          "name": "practicalmachinelearning",
+          "full_name": "khsyo/practicalmachinelearning",
+          "private": false,
+          "owner": {
+            "login": "khsyo",
+            "id": 13084773,
+            "node_id": "MDQ6VXNlcjEzMDg0Nzcz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13084773?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/khsyo",
+            "html_url": "https://github.com/khsyo",
+            "followers_url": "https://api.github.com/users/khsyo/followers",
+            "following_url": "https://api.github.com/users/khsyo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/khsyo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/khsyo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/khsyo/subscriptions",
+            "organizations_url": "https://api.github.com/users/khsyo/orgs",
+            "repos_url": "https://api.github.com/users/khsyo/repos",
+            "events_url": "https://api.github.com/users/khsyo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/khsyo/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/khsyo/practicalmachinelearning",
+          "description": "final project for Data Science Specialisation: Practical Machine Learning",
+          "fork": false,
+          "url": "https://api.github.com/repos/khsyo/practicalmachinelearning",
+          "forks_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/forks",
+          "keys_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/teams",
+          "hooks_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/hooks",
+          "issue_events_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/events",
+          "assignees_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/tags",
+          "blobs_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/languages",
+          "stargazers_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/stargazers",
+          "contributors_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/contributors",
+          "subscribers_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/subscribers",
+          "subscription_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/subscription",
+          "commits_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/merges",
+          "archive_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/downloads",
+          "issues_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/labels{/name}",
+          "releases_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/deployments",
+          "created_at": "2017-09-21T14:54:51Z",
+          "updated_at": "2017-09-21T15:18:59Z",
+          "pushed_at": "2017-09-21T15:18:57Z",
+          "git_url": "git://github.com/khsyo/practicalmachinelearning.git",
+          "ssh_url": "git@github.com:khsyo/practicalmachinelearning.git",
+          "clone_url": "https://github.com/khsyo/practicalmachinelearning.git",
+          "svn_url": "https://github.com/khsyo/practicalmachinelearning",
+          "homepage": null,
+          "size": 225,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "language": "HTML",
+          "has_issues": true,
+          "has_projects": true,
+          "has_downloads": true,
+          "has_wiki": true,
+          "has_pages": true,
+          "forks_count": 0,
+          "mirror_url": null,
+          "archived": false,
+          "disabled": false,
+          "open_issues_count": 0,
+          "license": null,
+          "allow_forking": true,
+          "is_template": false,
+          "web_commit_signoff_required": false,
+          "topics": [],
+          "visibility": "public",
+          "forks": 0,
+          "open_issues": 0,
+          "watchers": 0,
+          "default_branch": "gh-pages",
+          "score": 1.0
+        }]
+      },
+      "examples": [
+        [{
+          "id": 104361782,
+          "node_id": "MDEwOlJlcG9zaXRvcnkxMDQzNjE3ODI=",
+          "name": "practicalmachinelearning",
+          "full_name": "khsyo/practicalmachinelearning",
+          "private": false,
+          "owner": {
+            "login": "khsyo",
+            "id": 13084773,
+            "node_id": "MDQ6VXNlcjEzMDg0Nzcz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/13084773?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/khsyo",
+            "html_url": "https://github.com/khsyo",
+            "followers_url": "https://api.github.com/users/khsyo/followers",
+            "following_url": "https://api.github.com/users/khsyo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/khsyo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/khsyo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/khsyo/subscriptions",
+            "organizations_url": "https://api.github.com/users/khsyo/orgs",
+            "repos_url": "https://api.github.com/users/khsyo/repos",
+            "events_url": "https://api.github.com/users/khsyo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/khsyo/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "html_url": "https://github.com/khsyo/practicalmachinelearning",
+          "description": "final project for Data Science Specialisation: Practical Machine Learning",
+          "fork": false,
+          "url": "https://api.github.com/repos/khsyo/practicalmachinelearning",
+          "forks_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/forks",
+          "keys_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/keys{/key_id}",
+          "collaborators_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/collaborators{/collaborator}",
+          "teams_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/teams",
+          "hooks_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/hooks",
+          "issue_events_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/events{/number}",
+          "events_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/events",
+          "assignees_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/assignees{/user}",
+          "branches_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/branches{/branch}",
+          "tags_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/tags",
+          "blobs_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/blobs{/sha}",
+          "git_tags_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/tags{/sha}",
+          "git_refs_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/refs{/sha}",
+          "trees_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/trees{/sha}",
+          "statuses_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/statuses/{sha}",
+          "languages_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/languages",
+          "stargazers_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/stargazers",
+          "contributors_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/contributors",
+          "subscribers_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/subscribers",
+          "subscription_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/subscription",
+          "commits_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/commits{/sha}",
+          "git_commits_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/commits{/sha}",
+          "comments_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/comments{/number}",
+          "issue_comment_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/comments{/number}",
+          "contents_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/contents/{+path}",
+          "compare_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/compare/{base}...{head}",
+          "merges_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/merges",
+          "archive_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/{archive_format}{/ref}",
+          "downloads_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/downloads",
+          "issues_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues{/number}",
+          "pulls_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/pulls{/number}",
+          "milestones_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/milestones{/number}",
+          "notifications_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/notifications{?since,all,participating}",
+          "labels_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/labels{/name}",
+          "releases_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/releases{/id}",
+          "deployments_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/deployments",
+          "created_at": "2017-09-21T14:54:51Z",
+          "updated_at": "2017-09-21T15:18:59Z",
+          "pushed_at": "2017-09-21T15:18:57Z",
+          "git_url": "git://github.com/khsyo/practicalmachinelearning.git",
+          "ssh_url": "git@github.com:khsyo/practicalmachinelearning.git",
+          "clone_url": "https://github.com/khsyo/practicalmachinelearning.git",
+          "svn_url": "https://github.com/khsyo/practicalmachinelearning",
+          "homepage": null,
+          "size": 225,
+          "stargazers_count": 0,
+          "watchers_count": 0,
+          "language": "HTML",
+          "has_issues": true,
+          "has_projects": true,
+          "has_downloads": true,
+          "has_wiki": true,
+          "has_pages": true,
+          "forks_count": 0,
+          "mirror_url": null,
+          "archived": false,
+          "disabled": false,
+          "open_issues_count": 0,
+          "license": null,
+          "allow_forking": true,
+          "is_template": false,
+          "web_commit_signoff_required": false,
+          "topics": [],
+          "visibility": "public",
+          "forks": 0,
+          "open_issues": 0,
+          "watchers": 0,
+          "default_branch": "gh-pages",
+          "score": 1.0
+        }]
+      ]
+    }
+  },
+  "examples": [{
+    "total_count": 21,
+    "incomplete_results": false,
+    "items": [{
+      "id": 104361782,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxMDQzNjE3ODI=",
+      "name": "practicalmachinelearning",
+      "full_name": "khsyo/practicalmachinelearning",
+      "private": false,
+      "owner": {
+        "login": "khsyo",
+        "id": 13084773,
+        "node_id": "MDQ6VXNlcjEzMDg0Nzcz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13084773?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/khsyo",
+        "html_url": "https://github.com/khsyo",
+        "followers_url": "https://api.github.com/users/khsyo/followers",
+        "following_url": "https://api.github.com/users/khsyo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/khsyo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/khsyo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/khsyo/subscriptions",
+        "organizations_url": "https://api.github.com/users/khsyo/orgs",
+        "repos_url": "https://api.github.com/users/khsyo/repos",
+        "events_url": "https://api.github.com/users/khsyo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/khsyo/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/khsyo/practicalmachinelearning",
+      "description": "final project for Data Science Specialisation: Practical Machine Learning",
+      "fork": false,
+      "url": "https://api.github.com/repos/khsyo/practicalmachinelearning",
+      "forks_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/forks",
+      "keys_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/teams",
+      "hooks_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/hooks",
+      "issue_events_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/events",
+      "assignees_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/tags",
+      "blobs_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/languages",
+      "stargazers_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/stargazers",
+      "contributors_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/contributors",
+      "subscribers_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/subscribers",
+      "subscription_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/subscription",
+      "commits_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/merges",
+      "archive_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/downloads",
+      "issues_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/labels{/name}",
+      "releases_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/khsyo/practicalmachinelearning/deployments",
+      "created_at": "2017-09-21T14:54:51Z",
+      "updated_at": "2017-09-21T15:18:59Z",
+      "pushed_at": "2017-09-21T15:18:57Z",
+      "git_url": "git://github.com/khsyo/practicalmachinelearning.git",
+      "ssh_url": "git@github.com:khsyo/practicalmachinelearning.git",
+      "clone_url": "https://github.com/khsyo/practicalmachinelearning.git",
+      "svn_url": "https://github.com/khsyo/practicalmachinelearning",
+      "homepage": null,
+      "size": 225,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "HTML",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": true,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "topics": [],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "gh-pages",
+      "score": 1.0
+    }]
+  }]
+}
